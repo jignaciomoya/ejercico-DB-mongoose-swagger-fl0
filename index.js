@@ -6,7 +6,7 @@ const PORT = 8080;
 
 const { dbConnection } = require('./config/config');
 const routes = require('./routes/tasks');
-const docs = require('./docs/index');
+const docs = require('./Documents/index');
 
 app.use(express.json());
 
